@@ -12,10 +12,10 @@ class Post(models.Model):
     published_date = models.DateTimeField(
             blank=True, null=True)
 
-    def publish(self):
+    def publish(self): # defining a method and the method is called publish
         self.published_date = timezone.now()
         self.save()
 
 
-    def __str__(self):
+    def __str__(self):# defining a method _str_ which return a string
         return self.title
