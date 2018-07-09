@@ -1,7 +1,8 @@
+# telling git file we would like it to ignore and db.sqlite3 is a local database where all post are stored
 *.pyc
 *~
 __pycache__
 myvenv
-db.sqlite3
+db.sqlite3 
 /static
 .DS_Store
